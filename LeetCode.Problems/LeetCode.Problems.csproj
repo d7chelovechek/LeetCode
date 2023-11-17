@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LeetCode.Extensions\LeetCode.Extensions.csproj" />
-  </ItemGroup>
-
 </Project>
