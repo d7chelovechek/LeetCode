@@ -24,7 +24,10 @@ namespace LeetCode.UnitTests.Hard
         {
             int actual = _solution.MinPairSum(nums);
 
-            Assert.That(actual, Is.EqualTo(expected));
+            Assert.That(
+                actual, 
+                Is.EqualTo(expected), 
+                "Actual value is not equal to expected value!");
         }
     }
 }
