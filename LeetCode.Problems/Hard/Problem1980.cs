@@ -13,7 +13,7 @@
             string binaryString = string.Empty;
 
             // 65535 is 1111111111111111 in binary
-            for (var value = 1; value <= 65535; value++)
+            for (var value = 0; value <= 65535; value++)
             {
                 if (!values.Contains(value))
                 {
